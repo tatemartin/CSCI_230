@@ -1,0 +1,57 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/wp3228058.jpg);
+    background-size: cover;
+
+}
+
+.image {
+    position: absolute;
+    width: 150px;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.image:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#pig {
+    left: -10%;
+    top: 20%;
+    animation: float 3s infinite ease-in-out;
+}
+
+#cow {
+    left: 50%;
+    top: 50%;
+    animation: rotate 5s infinite linear;
+}
+
+#sheep {
+    left: 70%;
+    top: 10%;
+    animation: float 2.5s infinite ease-in-out;
+}
+
+#chick {
+    left: -5%;
+    top: 70%;
+    animation: rotate 4s infinite linear;
+}
+
+#goat {
+    left: 80%;
+    top: 30%;
+    animation: float 3.5s infinite ease-in-out;
+}

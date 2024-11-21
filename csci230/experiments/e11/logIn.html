@@ -1,0 +1,27 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+
+    <link rel="stylesheet" href="logIn.css">
+
+    <script defer src="logIn.js"></script>
+    <script defer src="loadTheme.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <fieldset>
+            <legend>Log In</legend>
+            <label for="name"> Username (minimum 8 characters)</label>
+            <input type="text" id="username" name="name" required minlength="8" maxlength="16" size="10" /><br><br>
+            <label for="pass">Password (8 characters minimum):</label>
+            <input type="password" id="password" name="password" minlength="8" required /><br><br>
+        </fieldset>
+
+        <button id="logInButton">Log In</button>
+    </main>
+</body>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta id="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="e2.css">
+  <script defer src="e2.js"></script>
+</head>
+
+<body>
+  <form id="form">
+    <fieldset>
+      <legend>New User Form</legend>
+
+      <legend>Choose your dominant hand:</legend>
+      <div>
+        <input type="checkbox" id="checkbox" checked />
+        <label for="checkbox">Right</label>
+      </div>
+
+      <p>Choose your favortie color:</p>
+      <div>
+        <input type="color" id="color" value="#e66465" />
+        <label for="color">Color</label>
+      </div>
+      <label for="time">When did you first gain consciousness?</label>
+      <input type="datetime-local" id="time" value="2018-06-12T19:30" min="1900-00-00T00:00"
+        max="2024-09-07T00:00" /><br>
+
+      <label for="email" id="email">Enter your email:</label>
+      <input type="email" pattern=".+@example.com" size="30" /><br>
+
+      <label for="file">Choose your smallest png/jpeg file:</label>
+      <input type="file" id="file" accept="image/png, image/jpeg" /><br>
+
+      <label for="image">Choose your hairiest photo:</label>
+      <input type="image" id="image" src="c:\Users\User\Downloads\dog.jpg" /><br>
+
+      <label for="icecream">Number of good ice cream flavors:</label>
+      <input type="number" id="icecream" min="1" max="100" /><br>
+
+      <label for="password">Password (8 characters minimum):</label>
+      <input type="password" id="password" minlength="8" /><br>
+
+      <legend>Select a number:</legend>
+
+      <div>
+        <input type="radio" id="num" value="1" checked />
+        <label for="1">1</label>
+      </div>
+
+      <div>
+        <input type="radio" id="num" value="18" />
+        <label for="18">18</label>
+      </div>
+
+      <div>
+        <input type="radio" id="num" value="147" />
+        <label for="147">147</label>
+      </div>
+
+      <input type="range" id="batt" min="0" max="100" />
+      <label for="batt">Phone Battery</label><br>
+
+      <label for="search">Search the site:</label>
+      <input type="search" id="search" /><br>
+
+      <label for="phone">
+        Enter your phone number:<br />
+        <small>Format: 123-456-7890</small>
+      </label>
+      <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/><br>
+
+      <label for="pet">First Pets id (4 to 16 characters):</label>
+      <input type="text" id="pet" minlength="4" maxlength="16" size="12" /><br>
+
+      <label for="sleep">When did you go to bed last night?</label>
+      <input type="time" id="sleep" min="20:00" max="03:00" /><br>
+
+      <label for="url">Enter your favortie n0code url</label>
+      <input type="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" /><br>
+
+      <input type="reset" value="Reset" />
+      <input id="submit" type="submit" value="Submit" /> <br>
+    </fieldset>
+  </form>
+  <div id="bottomOfPage"></div>
+
+</body>
+
+</html>

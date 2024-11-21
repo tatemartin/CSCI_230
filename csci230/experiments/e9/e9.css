@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.shape {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition: all 0.5s;
+}
+.circle {
+    background-color: #F7B267;
+    border-radius: 50%;
+}
+.square {
+    background-color: #F79D65;
+}
+.rectangle {
+    background-color: #F4845F;
+    width: 150px;
+}
+.triangle {
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #F27059;
+}
+.oval {
+    background-color: #F25C54;
+    border-radius: 50%;
+    width: 150px;
+    height: 100px;
+}

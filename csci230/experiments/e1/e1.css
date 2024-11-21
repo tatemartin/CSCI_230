@@ -1,0 +1,230 @@
+body {
+    background-color: red;
+}
+
+#firstSection > #One {
+    background-color: aqua;
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#firstSection > #Two {
+    background-color: blueviolet;
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 25%;
+}
+
+#firstSection > #Three {
+    background-color:coral;
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+}
+
+#firstSection > #Four {
+    background-color:darkgreen;
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 75%;
+}
+
+#secondSection > #One {
+    background-color:rgb(240, 140, 17);
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+
+#secondSection > #Two {
+    background-color: rgb(39, 150, 47);
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 300px;
+    left: 25%;
+}
+
+#secondSection > #Three {
+    background-color:rgb(167, 220, 33);
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+}
+
+#secondSection > #Four {
+    background-color:rgb(55, 63, 182);
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 300px;
+    left: 75%;
+}
+
+#thirdSection > #One {
+    background-color: rgb(124, 28, 86);
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 600px;
+    left: 0px;
+}
+
+#thirdSection > #Two {
+    background-color: rgb(136, 21, 21);
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 600px;
+    left: 25%;
+}
+
+#thirdSection > #Three {
+    background-color:rgb(28, 50, 18);
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+}
+
+#thirdSection > #Four {
+    background-color:rgb(114, 160, 180);
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 600px;
+    left: 75%;
+}
+
+#fourthSection > #One {
+    background-color: rgb(216, 19, 177);
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 900px;
+    left: 0px;
+}
+
+#fourthSection > #Two {
+    background-color: rgb(168, 169, 152);
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 900px;
+    left: 25%;
+}
+
+#fourthSection > #Three {
+    background-color:rgb(119, 16, 38);
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 900px;
+    left: 50%;
+}
+
+#fourthSection > #Four {
+    background-color:rgb(28, 159, 131);
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 900px;
+    left: 75%;
+}
+
+#fifthSection > #One {
+    background-color: rgb(174, 76, 154);
+    width: 25%;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 10%;
+}
+
+#fifthSection > #Two {
+    background-color: rgb(238, 255, 5);
+    width: 25%;
+    height: 200px;
+    position: absolute;
+    top: 110px;
+    left: 35%;
+    border: 10px solid red;
+}
+
+#fifthSection > #Three {
+    background-color:rgb(91, 115, 239);
+    width: 25%;
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    left: 65%;
+}
+
+#fifthSection > #Four {
+    background-color:rgb(239, 91, 91);
+    width: 25%;
+    height: 200px;
+    position: absolute;
+    top: 450px;
+    left: 12%;
+}
+
+#fifthSection > #Five {
+    background-color:rgb(20, 221, 240);
+    width: 25%;
+    height: 200px;
+    position: absolute;
+    top: 500px;
+    left: 30%;
+    padding: 100px;
+}
+
+#fifthSection > #Six {
+    background-color:rgb(196, 90, 20);
+    width: 25%;
+    height: 200px;
+    position: absolute;
+    top: 425px;
+    left: 60%;
+}
+
+#fifthSection > #Seven {
+    background-color:rgb(156, 2, 2);
+    width: 25%;
+    height: 200px;
+    position: absolute;
+    top: 850px;
+    left: 14%;
+}
+
+#fifthSection > #Eight {
+    background-color:rgb(240, 20, 181);
+    width: 25%;
+    height: 200px;
+    position: absolute;
+    top: 870px;
+    left: 35%;
+}
+
+#fifthSection > #Nine {
+    background-color:rgb(245, 233, 226);
+    width: 25%;
+    height: 200px;
+    position: absolute;
+    top: 830px;
+    left: 70%;
+}
