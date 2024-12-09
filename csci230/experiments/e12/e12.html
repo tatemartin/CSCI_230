@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="e12.css">
+    <script defer src="e12.js"></script>
+</head>
+<body>
+    <h1>Form with IndexedDB</h1>
+
+    <form id="userForm">
+        <label for="nameInput">Name:</label>
+        <input type="text" id="nameInput" required><br><br>
+
+        <label for="dogInput">Do you have a dog?</label>
+        <input type="checkbox" id="dogInput"><br><br>
+
+        <label>What is your favorite programming language?</label>
+        <input type="radio" id="radio1" name="options" value="Option 1" required> Java
+        <input type="radio" id="radio2" name="options" value="Option 2"> Python
+        <input type="radio" id="radio3" name="options" value="Option 3"> JavaScript<br><br>
+
+        <button type="button" id="saveButton">Save</button>
+    </form>
+
+    <h2>Stored Data:</h2>
+    <ul id="dataList"></ul>
+</body>
+</html>

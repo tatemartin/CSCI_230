@@ -1,0 +1,12 @@
+body {
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.list-item {
+    padding: 5px;
+    color: salmon;
+}
